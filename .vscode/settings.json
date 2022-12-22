@@ -1,4 +1,7 @@
 {
     "deno.enable": true,
-    "deno.unstable": true
+    "deno.unstable": true,
+    "deno.codeLens.test": true,
+    "deno.codeLens.referencesAllFunctions": true,
+    "deno.codeLens.references": true
 }
