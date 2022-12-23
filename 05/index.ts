@@ -65,7 +65,7 @@ export function makeMove(
   const fromIndex = from - 1;
   const toIndex = to - 1;
   const fromColumn = crates[fromIndex];
-  const toMove = fromColumn.substr(-quantity).split("").reverse().join("");
+  const toMove = fromColumn.substr(-quantity);
   const fromColumnAfterMove = fromColumn.substr(
     0,
     fromColumn.length - quantity,

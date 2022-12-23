@@ -159,3 +159,14 @@ Deno.test(function reallyDoIt() {
   console.log({ finalCrates });
   assertEquals(true, true);
 });
+
+Deno.test(function doesTheSamplePart2Work() {
+  const finalCrates = doIt(parseInput(sampleInput));
+  assertEquals(finalCrates, ["M", "C", "PZND"]);
+});
+
+Deno.test(function reallyDoItPart2() {
+  const finalCrates = doIt(parseInput(input));
+  console.log({ finalCrates });
+  assertEquals(true, true);
+});
